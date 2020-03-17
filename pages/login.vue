@@ -1,14 +1,14 @@
 <template>
   <div>
     <v-card class="mx-auto" max-width="500" height="600">
-      <v-toolbar color="teal" dark flat>
+      <v-toolbar color="teal mb-8" dark flat>
         <v-toolbar-title>
           <h2>Login.vue</h2>
         </v-toolbar-title>
       </v-toolbar>
 
       <v-card-text>
-        <v-form>
+        <v-form class="mb-8">
           <v-text-field
             label="Email"
             name="email"
